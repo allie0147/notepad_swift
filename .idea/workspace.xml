@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c0c2b37-0bdc-436e-8d5b-d14bbdaeb214" name="Default Changelist" comment="" />
+    <list default="true" id="2c0c2b37-0bdc-436e-8d5b-d14bbdaeb214" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notepad.xcodeproj/project.xcworkspace/xcuserdata/ishift.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/notepad.xcodeproj/project.xcworkspace/xcuserdata/ishift.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_FA7DCEA0-90F7-4371-8FC9-6319A61796AD" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kS4bilTivzTvlyacoFdNnDluYt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,7 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605680731572</updated>
       <workItem from="1605680732670" duration="1774000" />
-      <workItem from="1605682557644" duration="1556000" />
+      <workItem from="1605682557644" duration="3105000" />
     </task>
     <servers />
   </component>
@@ -46,12 +54,24 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1784" y="330" width="576" height="192" key="Github.ShareDialog" timestamp="1605685123622">
+      <screen x="1280" y="-102" width="1920" height="1057" />
+    </state>
+    <state x="1784" y="330" width="576" height="192" key="Github.ShareDialog/0.23.1280.713/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605685123622" />
+    <state x="2019" y="139" key="Github.UntrackedFilesDialog" timestamp="1605685134147">
+      <screen x="1280" y="-102" width="1920" height="1057" />
+    </state>
+    <state x="2019" y="139" key="Github.UntrackedFilesDialog/0.23.1280.713/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605685134147" />
     <state x="1749" y="73" key="SettingsEditor" timestamp="1605685095282">
       <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
     <state x="1749" y="54" key="SettingsEditor/0.0.1280.800/1280.-125.1920.1080@1280.-125.1920.1080" timestamp="1605681805474" />
     <state x="1749" y="73" key="SettingsEditor/0.23.1280.713/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605685095282" />
     <state x="1749" y="54" key="SettingsEditor/0.23.1280.777/1280.-125.1920.1080@1280.-125.1920.1080" timestamp="1605681519762" />
+    <state x="1380" y="-2" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605685776565">
+      <screen x="1280" y="-102" width="1920" height="1057" />
+    </state>
+    <state x="1380" y="-2" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.713/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605685776565" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1605681555393">
       <screen x="1280" y="-125" width="1920" height="1080" />
     </state>
