@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c0c2b37-0bdc-436e-8d5b-d14bbdaeb214" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="2c0c2b37-0bdc-436e-8d5b-d14bbdaeb214" name="Default Changelist" comment="add gitignore">
+      <changelist_data name="Allie Kim" email="allie0147@gmail.com" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notepad.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/notepad.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notepad.xcodeproj/project.xcworkspace/xcuserdata/ishift.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/notepad.xcodeproj/project.xcworkspace/xcuserdata/ishift.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notepad/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/ViewController.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +29,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_FA7DCEA0-90F7-4371-8FC9-6319A61796AD" />
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="1530acb14abf46250c1b23856a97ccef30bd7132" />
+  </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Allie Kim &lt;allie0147@gmail.com&gt;" />
+        <option value="allie0147 &lt;allie0147@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="ProjectId" id="1kS4bilTivzTvlyacoFdNnDluYt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -22,9 +49,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="notepad" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="notepad" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="notepad" TARGET_NAME="notepad" CONFIG_NAME="Debug" SCHEME_NAME="notepad" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="notepad" RUN_TARGET_NAME="notepad" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
@@ -46,32 +75,87 @@
       <option name="presentableId" value="Default" />
       <updated>1605680731572</updated>
       <workItem from="1605680732670" duration="1774000" />
-      <workItem from="1605682557644" duration="3105000" />
+      <workItem from="1605682557644" duration="4708000" />
+      <workItem from="1605746395483" duration="1950000" />
     </task>
+    <task id="LOCAL-00001" summary="add gitignore">
+      <created>1605688108454</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605688108454</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1784" y="330" width="576" height="192" key="Github.ShareDialog" timestamp="1605685123622">
+    <state x="1985" y="224" key="#Notifications" timestamp="1605689351325">
       <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
+    <state x="1985" y="224" key="#Notifications/0.23.1280.713/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605689351325" />
+    <state x="1784" y="303" width="576" height="192" key="Github.ShareDialog" timestamp="1605746444300">
+      <screen x="1280" y="-102" width="1920" height="991" />
+    </state>
     <state x="1784" y="330" width="576" height="192" key="Github.ShareDialog/0.23.1280.713/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605685123622" />
+    <state x="1784" y="303" width="576" height="192" key="Github.ShareDialog/0.23.1280.777/1280.-102.1920.991@1280.-102.1920.991" timestamp="1605746444300" />
     <state x="2019" y="139" key="Github.UntrackedFilesDialog" timestamp="1605685134147">
       <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
     <state x="2019" y="139" key="Github.UntrackedFilesDialog/0.23.1280.713/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605685134147" />
-    <state x="1749" y="73" key="SettingsEditor" timestamp="1605685095282">
+    <state x="1749" y="73" key="SettingsEditor" timestamp="1605689421356">
       <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
     <state x="1749" y="54" key="SettingsEditor/0.0.1280.800/1280.-125.1920.1080@1280.-125.1920.1080" timestamp="1605681805474" />
-    <state x="1749" y="73" key="SettingsEditor/0.23.1280.713/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605685095282" />
+    <state x="1749" y="73" key="SettingsEditor/0.23.1280.713/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605689421356" />
     <state x="1749" y="54" key="SettingsEditor/0.23.1280.777/1280.-125.1920.1080@1280.-125.1920.1080" timestamp="1605681519762" />
+    <state x="1840" y="133" key="Vcs.Push.Dialog.v2" timestamp="1605747161849">
+      <screen x="1280" y="-102" width="1920" height="991" />
+    </state>
+    <state x="1840" y="133" key="Vcs.Push.Dialog.v2/0.23.1280.777/1280.-102.1920.991@1280.-102.1920.991" timestamp="1605747161849" />
+    <state x="1380" y="-2" width="1720" height="791" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1605746743506">
+      <screen x="1280" y="-102" width="1920" height="991" />
+    </state>
+    <state x="1380" y="-2" width="1720" height="791" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.1280.777/1280.-102.1920.991@1280.-102.1920.991" timestamp="1605746743506" />
     <state x="1380" y="-2" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605685776565">
       <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
     <state x="1380" y="-2" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.713/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605685776565" />
+    <state x="2052" y="314" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605746575392">
+      <screen x="1280" y="-102" width="1920" height="991" />
+    </state>
+    <state x="2052" y="314" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.777/1280.-102.1920.991@1280.-102.1920.991" timestamp="1605746575392" />
+    <state x="2056" y="289" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605689588566">
+      <screen x="1280" y="-102" width="1920" height="991" />
+    </state>
+    <state x="2056" y="289" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1280.777/1280.-102.1920.991@1280.-102.1920.991" timestamp="1605689588566" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1605681555393">
       <screen x="1280" y="-125" width="1920" height="1080" />
     </state>
