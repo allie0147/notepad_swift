@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24D9C04F256606B100C09E71 /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D9C04E256606B100C09E71 /* MemoListTableViewController.swift */; };
 		B9B24023645681E85C7BED98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B2440F370F78C91C158BC9 /* LaunchScreen.storyboard */; };
 		B9B242DD8AB0C38F28B36F94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B24627AB127897690CCFB5 /* Main.storyboard */; };
 		B9B2446BCBCAE5F23B820EB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9B24ECA7EC220419851ABEE /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24D9C04E256606B100C09E71 /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 		B9B2415F1E1EDEC476727B33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B9B242A99025916677408B33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9B24380851566C15012AEED /* notepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notepad.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +68,7 @@
 				B9B2415F1E1EDEC476727B33 /* ViewController.swift */,
 				B9B24627AB127897690CCFB5 /* Main.storyboard */,
 				B9B24ACF4508BD2BAC60AC1E /* Model */,
+				24D9C04E256606B100C09E71 /* MemoListTableViewController.swift */,
 			);
 			path = notepad;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			files = (
 				B9B244B8EDA5E8309A4658FD /* AppDelegate.swift in Sources */,
 				B9B24A317CAF368CB117E00D /* SceneDelegate.swift in Sources */,
+				24D9C04F256606B100C09E71 /* MemoListTableViewController.swift in Sources */,
 				B9B24F259516E72609719AAF /* ViewController.swift in Sources */,
 				B9B24839F3321D66E864244E /* Model.swift in Sources */,
 			);

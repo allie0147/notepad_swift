@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  notepad
 //
-//  Created by ishift on 2020/11/18.
+//  Created by Allie Kim on 2020/11/18.
 //
 //
 

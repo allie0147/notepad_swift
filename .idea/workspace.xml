@@ -15,12 +15,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c0c2b37-0bdc-436e-8d5b-d14bbdaeb214" name="Default Changelist" comment="add gitignore">
-      <changelist_data name="Allie Kim" email="allie0147@gmail.com" />
+    <list default="true" id="2c0c2b37-0bdc-436e-8d5b-d14bbdaeb214" name="Default Changelist" comment="add Model.swift">
+      <change afterPath="$PROJECT_DIR$/notepad/MemoListTableViewController.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/Main.storyboard" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notepad.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/notepad.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notepad.xcodeproj/project.xcworkspace/xcuserdata/ishift.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/notepad.xcodeproj/project.xcworkspace/xcuserdata/ishift.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notepad/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notepad/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notepad/Model/Model.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/Model/Model.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notepad/SceneDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/SceneDelegate.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notepad/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/ViewController.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +79,7 @@
       <updated>1605680731572</updated>
       <workItem from="1605680732670" duration="1774000" />
       <workItem from="1605682557644" duration="4708000" />
-      <workItem from="1605746395483" duration="1950000" />
+      <workItem from="1605746395483" duration="3660000" />
     </task>
     <task id="LOCAL-00001" summary="add gitignore">
       <created>1605688108454</created>
@@ -85,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605688108454</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add Model.swift">
+      <created>1605748919844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605748919844</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +121,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="add gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
+    <MESSAGE value="add Model.swift" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Model.swift" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -121,6 +132,10 @@
       <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
     <state x="1985" y="224" key="#Notifications/0.23.1280.713/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605689351325" />
+    <state x="1978" y="145" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605750621428">
+      <screen x="1280" y="-102" width="1920" height="987" />
+    </state>
+    <state x="1978" y="145" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.777/1280.-102.1920.987@1280.-102.1920.987" timestamp="1605750621428" />
     <state x="1784" y="303" width="576" height="192" key="Github.ShareDialog" timestamp="1605746444300">
       <screen x="1280" y="-102" width="1920" height="991" />
     </state>
@@ -136,9 +151,10 @@
     <state x="1749" y="54" key="SettingsEditor/0.0.1280.800/1280.-125.1920.1080@1280.-125.1920.1080" timestamp="1605681805474" />
     <state x="1749" y="73" key="SettingsEditor/0.23.1280.713/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605689421356" />
     <state x="1749" y="54" key="SettingsEditor/0.23.1280.777/1280.-125.1920.1080@1280.-125.1920.1080" timestamp="1605681519762" />
-    <state x="1840" y="133" key="Vcs.Push.Dialog.v2" timestamp="1605747161849">
-      <screen x="1280" y="-102" width="1920" height="991" />
+    <state x="1840" y="132" key="Vcs.Push.Dialog.v2" timestamp="1605748927994">
+      <screen x="1280" y="-102" width="1920" height="987" />
     </state>
+    <state x="1840" y="132" key="Vcs.Push.Dialog.v2/0.23.1280.777/1280.-102.1920.987@1280.-102.1920.987" timestamp="1605748927994" />
     <state x="1840" y="133" key="Vcs.Push.Dialog.v2/0.23.1280.777/1280.-102.1920.991@1280.-102.1920.991" timestamp="1605747161849" />
     <state x="1380" y="-2" width="1720" height="791" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1605746743506">
       <screen x="1280" y="-102" width="1920" height="991" />
