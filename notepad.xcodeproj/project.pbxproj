@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2432FCB625674E92008BF6C2 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2432FCB525674E92008BF6C2 /* ComposeViewController.swift */; };
+		2432FCBA25679047008BF6C2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2432FCB925679047008BF6C2 /* DetailViewController.swift */; };
 		24D9C04F256606B100C09E71 /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D9C04E256606B100C09E71 /* MemoListTableViewController.swift */; };
 		B9B24023645681E85C7BED98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B2440F370F78C91C158BC9 /* LaunchScreen.storyboard */; };
 		B9B242DD8AB0C38F28B36F94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B24627AB127897690CCFB5 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		2432FCB525674E92008BF6C2 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		2432FCB925679047008BF6C2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		24D9C04E256606B100C09E71 /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 		B9B2415F1E1EDEC476727B33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B9B242A99025916677408B33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				24D9C04E256606B100C09E71 /* MemoListTableViewController.swift */,
 				2432FCB525674E92008BF6C2 /* ComposeViewController.swift */,
 				B9B24B0C33F2B623051E4624 /* UIViewController+Alert.swift */,
+				2432FCB925679047008BF6C2 /* DetailViewController.swift */,
 			);
 			path = notepad;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				B9B24F259516E72609719AAF /* ViewController.swift in Sources */,
 				B9B24839F3321D66E864244E /* Model.swift in Sources */,
 				B9B2480319471F8DEAACA783 /* UIViewController+Alert.swift in Sources */,
+				2432FCBA25679047008BF6C2 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

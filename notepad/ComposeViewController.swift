@@ -26,12 +26,15 @@ class ComposeViewController: UIViewController {
 
         // 내용이 있는 경우, 메모를 리스트에 저장한다.
         let newMemo = Memo(content: memo)
+        print(newMemo)
         Memo.dummyMemoList.append(newMemo)
-        //
+        // model의 변화를 notificationCenter에 postNotification으로 observer에 등록하기 위한 단계이다.
+        // notificationCenter으로 notification이 오면, center는 등록된 observer list를 모두 스캔한다.
+        // 이는 앱 성능을 저하시킬 가능성이 있다.
+        // 따라서, 적절히 하나 이상의 notificationCenter를 만들어 사용해야 한다.
+        // class var `default` : NotificationCenter { get }
         NotificationCenter.default.post(name: ComposeViewController.newMemoDidInsert, object: nil)
-
-
-        // 작성 뷰를 dismiss 시킨다.
+        // 작성 뷰를 dismiss 시킨다.(ViewController method 이다.)
         dismiss(animated: true, completion: nil)
     }
 
@@ -53,9 +56,7 @@ class ComposeViewController: UIViewController {
 
 }
 
-// add notification
+// create notification
 extension ComposeViewController {
     static let newMemoDidInsert = Notification.Name(rawValue: "newMemoDidInsert")
-
-
 }

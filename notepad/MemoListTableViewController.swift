@@ -43,8 +43,13 @@ class MemoListTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // tableView를 reload하는 observer를 추가한다.
+        // tableView를 reload하는 observer를 NotificationCenter에 등록한다.
         // observer는 NSObjectProtocol(a.k.a token)을 return 한다.
+        // NotificationCenter.default.addObserver(forName: Name?, object: Any?, queue: OperationQueue?, using: @escaping (Notification) -> Void)
+        // @escaping closure : 비동기 실행 또는 completionHandler로 사용되는 클로저의 경우
+        // 하나의 함수가 마무리 된 상태에서만 다른 함수가 실행되도록 함수를 작성할 수 있다. 실행 순서를 정할 수 있다.
+        // 어노테이션 또는 self를 사용해야 한다.
+        // [weak self] param in : self를 사용하기 때문에 발생 할 수 있는 strong reference cycle을 피하기 위해서 설정한다.
         token = NotificationCenter.default.addObserver(forName: ComposeViewController.newMemoDidInsert, object: nil, queue: OperationQueue.main) { [weak self] (noti) in
             self?.tableView.reloadData()
         }
