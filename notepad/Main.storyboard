@@ -87,7 +87,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Add Notes" id="3au-0V-EcJ">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Nwe-rE-nq6"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Nwe-rE-nq6">
+                            <connections>
+                                <action selector="close:" destination="zhq-ve-UC8" id="Y6O-eQ-kVH"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="cG6-gs-Udk"/>
                     </navigationItem>
                 </viewController>

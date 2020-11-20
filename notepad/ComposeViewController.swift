@@ -2,16 +2,19 @@
 //  ComposeViewController.swift
 //  notepad
 //
-//  Created by ishift on 2020/11/20.
+//  Created by Allie Kim on 2020/11/20.
 //
 
 import UIKit
 
 class ComposeViewController: UIViewController {
 
+    @IBAction func close(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
