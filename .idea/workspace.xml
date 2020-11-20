@@ -15,23 +15,20 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c0c2b37-0bdc-436e-8d5b-d14bbdaeb214" name="Default Changelist" comment="add Model.swift">
-      <change afterPath="$PROJECT_DIR$/notepad/MemoListTableViewController.swift" afterDir="false" />
+    <list default="true" id="2c0c2b37-0bdc-436e-8d5b-d14bbdaeb214" name="Default Changelist" comment="add MemoListTableViewController.swift">
+      <change afterPath="$PROJECT_DIR$/notepad/ComposeViewController.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notepad.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/notepad.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notepad.xcodeproj/project.xcworkspace/xcuserdata/ishift.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/notepad.xcodeproj/project.xcworkspace/xcuserdata/ishift.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notepad/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/AppDelegate.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notepad/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/Main.storyboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notepad/Model/Model.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/Model/Model.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notepad/SceneDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/SceneDelegate.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notepad/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/ViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notepad/MemoListTableViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/MemoListTableViewController.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_FA7DCEA0-90F7-4371-8FC9-6319A61796AD" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_00008030-0004593C21DA802E" />
   <component name="Git.Rebase.Settings">
     <option name="NEW_BASE" value="1530acb14abf46250c1b23856a97ccef30bd7132" />
   </component>
@@ -56,7 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
     <configuration name="notepad" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="notepad" TARGET_NAME="notepad" CONFIG_NAME="Debug" SCHEME_NAME="notepad" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="notepad" RUN_TARGET_NAME="notepad" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
@@ -79,7 +76,8 @@
       <updated>1605680731572</updated>
       <workItem from="1605680732670" duration="1774000" />
       <workItem from="1605682557644" duration="4708000" />
-      <workItem from="1605746395483" duration="3660000" />
+      <workItem from="1605746395483" duration="7691000" />
+      <workItem from="1605831756772" duration="2484000" />
     </task>
     <task id="LOCAL-00001" summary="add gitignore">
       <created>1605688108454</created>
@@ -95,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605748919844</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add MemoListTableViewController.swift">
+      <created>1605751361375</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605751361375</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,12 +122,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="add gitignore" />
     <MESSAGE value="add Model.swift" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Model.swift" />
+    <MESSAGE value="add MemoListTableViewController.swift" />
+    <option name="LAST_COMMIT_MESSAGE" value="add MemoListTableViewController.swift" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -132,6 +139,10 @@
       <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
     <state x="1985" y="224" key="#Notifications/0.23.1280.713/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605689351325" />
+    <state x="1704" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605760724157">
+      <screen x="1280" y="-102" width="1920" height="1057" />
+    </state>
+    <state x="1704" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.715/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605760724157" />
     <state x="1978" y="145" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605750621428">
       <screen x="1280" y="-102" width="1920" height="987" />
     </state>
@@ -145,16 +156,54 @@
       <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
     <state x="2019" y="139" key="Github.UntrackedFilesDialog/0.23.1280.713/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605685134147" />
-    <state x="1749" y="73" key="SettingsEditor" timestamp="1605689421356">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1605834609067">
+      <screen x="1280" y="-102" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.715/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605832624339" />
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605834609067" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1605834609058">
+      <screen x="1280" y="-102" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.715/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605832624336" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605834609058" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1605834609057">
+      <screen x="1280" y="-102" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.715/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605832624333" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605834609057" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1605834609062">
+      <screen x="1280" y="-102" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.715/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605832624338" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605834609062" />
+    <state width="1878" height="290" key="GridCell.Tab.1.bottom" timestamp="1605834609087">
+      <screen x="1280" y="-102" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.1.bottom/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605834609087" />
+    <state width="1878" height="290" key="GridCell.Tab.1.center" timestamp="1605834609075">
+      <screen x="1280" y="-102" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.1.center/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605834609075" />
+    <state width="1878" height="290" key="GridCell.Tab.1.left" timestamp="1605834609068">
+      <screen x="1280" y="-102" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.1.left/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605834609068" />
+    <state width="1878" height="290" key="GridCell.Tab.1.right" timestamp="1605834609082">
+      <screen x="1280" y="-102" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.1.right/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605834609082" />
+    <state x="1749" y="73" key="SettingsEditor" timestamp="1605760672298">
       <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
     <state x="1749" y="54" key="SettingsEditor/0.0.1280.800/1280.-125.1920.1080@1280.-125.1920.1080" timestamp="1605681805474" />
     <state x="1749" y="73" key="SettingsEditor/0.23.1280.713/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605689421356" />
+    <state x="1749" y="73" key="SettingsEditor/0.23.1280.715/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605760672298" />
     <state x="1749" y="54" key="SettingsEditor/0.23.1280.777/1280.-125.1920.1080@1280.-125.1920.1080" timestamp="1605681519762" />
-    <state x="1840" y="132" key="Vcs.Push.Dialog.v2" timestamp="1605748927994">
-      <screen x="1280" y="-102" width="1920" height="987" />
+    <state x="1840" y="149" key="Vcs.Push.Dialog.v2" timestamp="1605834623937">
+      <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
-    <state x="1840" y="132" key="Vcs.Push.Dialog.v2/0.23.1280.777/1280.-102.1920.987@1280.-102.1920.987" timestamp="1605748927994" />
+    <state x="1840" y="149" key="Vcs.Push.Dialog.v2/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605834623937" />
+    <state x="1840" y="132" key="Vcs.Push.Dialog.v2/0.23.1280.777/1280.-102.1920.987@1280.-102.1920.987" timestamp="1605751368756" />
     <state x="1840" y="133" key="Vcs.Push.Dialog.v2/0.23.1280.777/1280.-102.1920.991@1280.-102.1920.991" timestamp="1605747161849" />
     <state x="1380" y="-2" width="1720" height="791" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1605746743506">
       <screen x="1280" y="-102" width="1920" height="991" />
