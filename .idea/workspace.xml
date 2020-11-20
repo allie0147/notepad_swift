@@ -15,14 +15,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c0c2b37-0bdc-436e-8d5b-d14bbdaeb214" name="Default Changelist" comment="Feat: add cancel action on ComposeViewController.swift">
-      <change afterPath="$PROJECT_DIR$/notepad/UIViewController+Alert.swift" afterDir="false" />
+    <list default="true" id="2c0c2b37-0bdc-436e-8d5b-d14bbdaeb214" name="Default Changelist" comment="Feat: add submit action and reloading event">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notepad.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/notepad.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notepad.xcodeproj/project.xcworkspace/xcuserdata/ishift.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/notepad.xcodeproj/project.xcworkspace/xcuserdata/ishift.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notepad/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/AppDelegate.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notepad/ComposeViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/ComposeViewController.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notepad/MemoListTableViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/MemoListTableViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notepad/UIViewController+Alert.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/UIViewController+Alert.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +74,7 @@
       <workItem from="1605680732670" duration="1774000" />
       <workItem from="1605682557644" duration="4708000" />
       <workItem from="1605746395483" duration="7691000" />
-      <workItem from="1605831756772" duration="7040000" />
+      <workItem from="1605831756772" duration="7375000" />
     </task>
     <task id="LOCAL-00001" summary="add gitignore">
       <created>1605688108454</created>
@@ -115,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605835596783</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Feat: add submit action and reloading event">
+      <created>1605840077936</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605840077936</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +149,8 @@
     <MESSAGE value="add MemoListTableViewController.swift" />
     <MESSAGE value="add ComposeViewController.swift" />
     <MESSAGE value="Feat: add cancel action on ComposeViewController.swift" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: add cancel action on ComposeViewController.swift" />
+    <MESSAGE value="Feat: add submit action and reloading event" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: add submit action and reloading event" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -216,10 +220,11 @@
     <state x="1749" y="73" key="SettingsEditor/0.23.1280.713/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605689421356" />
     <state x="1749" y="73" key="SettingsEditor/0.23.1280.715/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605760672298" />
     <state x="1749" y="54" key="SettingsEditor/0.23.1280.777/1280.-125.1920.1080@1280.-125.1920.1080" timestamp="1605681519762" />
-    <state x="1840" y="149" key="Vcs.Push.Dialog.v2" timestamp="1605835607852">
+    <state x="1840" y="149" key="Vcs.Push.Dialog.v2" timestamp="1605840108192">
       <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
     <state x="1840" y="149" key="Vcs.Push.Dialog.v2/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605835607852" />
+    <state x="1840" y="149" key="Vcs.Push.Dialog.v2/0.23.1280.723/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605840108192" />
     <state x="1840" y="132" key="Vcs.Push.Dialog.v2/0.23.1280.777/1280.-102.1920.987@1280.-102.1920.987" timestamp="1605751368756" />
     <state x="1840" y="133" key="Vcs.Push.Dialog.v2/0.23.1280.777/1280.-102.1920.991@1280.-102.1920.991" timestamp="1605747161849" />
     <state x="1380" y="-2" width="1720" height="791" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1605746743506">

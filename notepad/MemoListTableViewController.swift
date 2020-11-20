@@ -17,12 +17,12 @@ import UIKit
 
 class MemoListTableViewController: UITableViewController {
 
-    // date format 설정
+    // date format 을 설정한다.
     let formatter: DateFormatter = {
         let f = DateFormatter()
         f.dateStyle = .long // .long(ENUM) == DateFormatter.Style.long
         f.timeStyle = .short
-        f.locale = Locale(identifier: "Ko_kr")
+        f.locale = Locale(identifier: "Ko_kr") // 언어를 한글로 설정한다.
         return f
     }()
 
@@ -44,7 +44,7 @@ class MemoListTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // tableView를 reload하는 observer를 추가한다.
-        // observer는 NSObjectProtocol(token)을 return 한다.
+        // observer는 NSObjectProtocol(a.k.a token)을 return 한다.
         token = NotificationCenter.default.addObserver(forName: ComposeViewController.newMemoDidInsert, object: nil, queue: OperationQueue.main) { [weak self] (noti) in
             self?.tableView.reloadData()
         }
@@ -56,19 +56,19 @@ class MemoListTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
-    // ==getItemCount(), 초기 테이블 뷰의 셀 갯수
+    // == getItemCount(), 초기 테이블 뷰의 셀 갯수이다.
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return Memo.dummyMemoList.count
     }
 
-    // onBindViewHolder() 와 같은 기능 >> cell 하나씩 출력하기 때문에 반복 수행
+    // onBindViewHolder() 와 같은 기능이다. cell을 하나씩 출력하기 때문에 반복 수행한다.
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        // id "cell"인 tableView의 prototype(==recycler item)을 설정
+        // id "cell"인 tableView의 prototype(==recycler item)을 설정한다.
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        // indexPath.row로 데이터에 접근
+        // indexPath.row로 데이터에 접근한다.
         let target = Memo.dummyMemoList[indexPath.row]
-        // cell에 데이터 추가
+        // cell에 데이터를 추가한다.
         cell.textLabel?.text = target.content
 //        cell.detailTextLabel?.text = target.insertDate.description
         cell.detailTextLabel?.text = formatter.string(from: target.insertDate)
