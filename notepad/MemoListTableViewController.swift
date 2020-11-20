@@ -41,6 +41,15 @@ class MemoListTableViewController: UITableViewController {
         }
     }
 
+    // segue가 연결된 화면을 생성하고, 화면을 전환하기 직전에 호출한다.
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let cell = sender as? UITableViewCell, let indexPath = tableView.indexPath(for: cell) {
+            if let vc = segue.destination as? DetailViewController {
+                vc.memo = Memo.dummyMemoList[indexPath.row]
+            }
+        }
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // tableView를 reload하는 observer를 NotificationCenter에 등록한다.

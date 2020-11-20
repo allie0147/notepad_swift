@@ -15,12 +15,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c0c2b37-0bdc-436e-8d5b-d14bbdaeb214" name="Default Changelist" comment="Style: reformatting remarks">
-      <change afterPath="$PROJECT_DIR$/notepad/DetailViewController.swift" afterDir="false" />
+    <list default="true" id="2c0c2b37-0bdc-436e-8d5b-d14bbdaeb214" name="Default Changelist" comment="Feat: add detail view">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notepad.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/notepad.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notepad.xcodeproj/project.xcworkspace/xcuserdata/ishift.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/notepad.xcodeproj/project.xcworkspace/xcuserdata/ishift.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notepad/ComposeViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/ComposeViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notepad/DetailViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/DetailViewController.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notepad/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/Main.storyboard" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notepad/MemoListTableViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/MemoListTableViewController.swift" afterDir="false" />
     </list>
@@ -29,7 +27,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_FA7DCEA0-90F7-4371-8FC9-6319A61796AD" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_" />
   <component name="Git.Rebase.Settings">
     <option name="NEW_BASE" value="1530acb14abf46250c1b23856a97ccef30bd7132" />
   </component>
@@ -78,7 +76,7 @@
       <workItem from="1605680732670" duration="1774000" />
       <workItem from="1605682557644" duration="4708000" />
       <workItem from="1605746395483" duration="7691000" />
-      <workItem from="1605831756772" duration="12448000" />
+      <workItem from="1605831756772" duration="13606000" />
     </task>
     <task id="LOCAL-00001" summary="add gitignore">
       <created>1605688108454</created>
@@ -129,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605840585580</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Feat: add detail view">
+      <created>1605855090022</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605855090022</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +167,8 @@
     <MESSAGE value="Feat: add cancel action on ComposeViewController.swift" />
     <MESSAGE value="Feat: add submit action and reloading event" />
     <MESSAGE value="Style: reformatting remarks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Style: reformatting remarks" />
+    <MESSAGE value="Feat: add detail view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: add detail view" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -189,53 +195,53 @@
       <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
     <state x="2019" y="139" key="Github.UntrackedFilesDialog/0.23.1280.713/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605685134147" />
-    <state width="1878" height="266" key="GridCell.Tab.0.bottom" timestamp="1605848816693">
+    <state width="1878" height="266" key="GridCell.Tab.0.bottom" timestamp="1605855272018">
       <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
     <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.715/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605832624339" />
-    <state width="1878" height="266" key="GridCell.Tab.0.bottom/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605848816693" />
+    <state width="1878" height="266" key="GridCell.Tab.0.bottom/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605855272018" />
     <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.723/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605841625432" />
     <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.-102.1920.987@1280.-102.1920.987" timestamp="1605847842278" />
-    <state width="1878" height="266" key="GridCell.Tab.0.center" timestamp="1605848816692">
+    <state width="1878" height="266" key="GridCell.Tab.0.center" timestamp="1605855272016">
       <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
     <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.715/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605832624336" />
-    <state width="1878" height="266" key="GridCell.Tab.0.center/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605848816692" />
+    <state width="1878" height="266" key="GridCell.Tab.0.center/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605855272016" />
     <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.723/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605841625430" />
     <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.777/1280.-102.1920.987@1280.-102.1920.987" timestamp="1605847842277" />
-    <state width="1878" height="266" key="GridCell.Tab.0.left" timestamp="1605848816691">
+    <state width="1878" height="266" key="GridCell.Tab.0.left" timestamp="1605855272015">
       <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
     <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.715/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605832624333" />
-    <state width="1878" height="266" key="GridCell.Tab.0.left/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605848816691" />
+    <state width="1878" height="266" key="GridCell.Tab.0.left/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605855272015" />
     <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.723/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605841625429" />
     <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.777/1280.-102.1920.987@1280.-102.1920.987" timestamp="1605847842276" />
-    <state width="1878" height="266" key="GridCell.Tab.0.right" timestamp="1605848816693">
+    <state width="1878" height="266" key="GridCell.Tab.0.right" timestamp="1605855272017">
       <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
     <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.715/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605832624338" />
-    <state width="1878" height="266" key="GridCell.Tab.0.right/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605848816693" />
+    <state width="1878" height="266" key="GridCell.Tab.0.right/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605855272017" />
     <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.723/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605841625430" />
     <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.777/1280.-102.1920.987@1280.-102.1920.987" timestamp="1605847842278" />
-    <state width="1878" height="290" key="GridCell.Tab.1.bottom" timestamp="1605841406094">
+    <state width="1878" height="266" key="GridCell.Tab.1.bottom" timestamp="1605855272034">
       <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.1.bottom/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605834609087" />
+    <state width="1878" height="266" key="GridCell.Tab.1.bottom/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605855272034" />
     <state width="1878" height="290" key="GridCell.Tab.1.bottom/0.23.1280.723/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605841406094" />
-    <state width="1878" height="290" key="GridCell.Tab.1.center" timestamp="1605841406092">
+    <state width="1878" height="266" key="GridCell.Tab.1.center" timestamp="1605855272029">
       <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.1.center/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605834609075" />
+    <state width="1878" height="266" key="GridCell.Tab.1.center/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605855272029" />
     <state width="1878" height="290" key="GridCell.Tab.1.center/0.23.1280.723/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605841406092" />
-    <state width="1878" height="290" key="GridCell.Tab.1.left" timestamp="1605841406092">
+    <state width="1878" height="266" key="GridCell.Tab.1.left" timestamp="1605855272019">
       <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.1.left/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605834609068" />
+    <state width="1878" height="266" key="GridCell.Tab.1.left/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605855272019" />
     <state width="1878" height="290" key="GridCell.Tab.1.left/0.23.1280.723/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605841406092" />
-    <state width="1878" height="290" key="GridCell.Tab.1.right" timestamp="1605841406093">
+    <state width="1878" height="266" key="GridCell.Tab.1.right" timestamp="1605855272031">
       <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.1.right/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605834609082" />
+    <state width="1878" height="266" key="GridCell.Tab.1.right/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605855272031" />
     <state width="1878" height="290" key="GridCell.Tab.1.right/0.23.1280.723/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605841406093" />
     <state x="1749" y="73" key="SettingsEditor" timestamp="1605760672298">
       <screen x="1280" y="-102" width="1920" height="1057" />
@@ -244,10 +250,10 @@
     <state x="1749" y="73" key="SettingsEditor/0.23.1280.713/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605689421356" />
     <state x="1749" y="73" key="SettingsEditor/0.23.1280.715/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605760672298" />
     <state x="1749" y="54" key="SettingsEditor/0.23.1280.777/1280.-125.1920.1080@1280.-125.1920.1080" timestamp="1605681519762" />
-    <state x="1840" y="149" key="Vcs.Push.Dialog.v2" timestamp="1605840624833">
+    <state x="1840" y="149" key="Vcs.Push.Dialog.v2" timestamp="1605855096496">
       <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
-    <state x="1840" y="149" key="Vcs.Push.Dialog.v2/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605835607852" />
+    <state x="1840" y="149" key="Vcs.Push.Dialog.v2/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605855096496" />
     <state x="1840" y="149" key="Vcs.Push.Dialog.v2/0.23.1280.723/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605840624833" />
     <state x="1840" y="132" key="Vcs.Push.Dialog.v2/0.23.1280.777/1280.-102.1920.987@1280.-102.1920.987" timestamp="1605751368756" />
     <state x="1840" y="133" key="Vcs.Push.Dialog.v2/0.23.1280.777/1280.-102.1920.991@1280.-102.1920.991" timestamp="1605747161849" />

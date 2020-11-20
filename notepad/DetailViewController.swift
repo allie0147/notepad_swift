@@ -9,6 +9,17 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    //이전 화면(MemoListTableView)에서 전달한 메모가 저장될 속성이다.
+    var memo: Memo?
+
+    let formatter: DateFormatter = {
+        let f = DateFormatter()
+        f.dateStyle = .long // .long(ENUM) == DateFormatter.Style.long
+        f.timeStyle = .short
+        f.locale = Locale(identifier: "Ko_kr") // 언어를 한글로 설정한다.
+        return f
+    }()
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -39,16 +50,14 @@ extension DetailViewController: UITableViewDataSource {
         switch indexPath.row {
         case 0:
             let cell = tableView.dequeueReusableCell(withIdentifier: "memoCell", for: indexPath)
-
+            cell.textLabel?.text = memo?.content
             return cell
         case 1:
             let cell = tableView.dequeueReusableCell(withIdentifier: "dateCell", for: indexPath)
-
+            cell.textLabel?.text = formatter.string(for: memo?.insertDate)
             return cell
         default:
             fatalError()
         }
     }
-
-
 }
