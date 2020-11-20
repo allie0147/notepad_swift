@@ -13,6 +13,7 @@
 		B9B242DD8AB0C38F28B36F94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B24627AB127897690CCFB5 /* Main.storyboard */; };
 		B9B2446BCBCAE5F23B820EB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9B24ECA7EC220419851ABEE /* Assets.xcassets */; };
 		B9B244B8EDA5E8309A4658FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B24A5EF399A5E11C50D41A /* AppDelegate.swift */; };
+		B9B2480319471F8DEAACA783 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B24B0C33F2B623051E4624 /* UIViewController+Alert.swift */; };
 		B9B24839F3321D66E864244E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B2440E49668529816A27F9 /* Model.swift */; };
 		B9B24A317CAF368CB117E00D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B24ADB31A941EB4F280C3C /* SceneDelegate.swift */; };
 		B9B24F259516E72609719AAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B2415F1E1EDEC476727B33 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 		B9B24A181FC7A70143D3427A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		B9B24A5EF399A5E11C50D41A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9B24ADB31A941EB4F280C3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B9B24B0C33F2B623051E4624 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		B9B24ECA7EC220419851ABEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 				B9B24ACF4508BD2BAC60AC1E /* Model */,
 				24D9C04E256606B100C09E71 /* MemoListTableViewController.swift */,
 				2432FCB525674E92008BF6C2 /* ComposeViewController.swift */,
+				B9B24B0C33F2B623051E4624 /* UIViewController+Alert.swift */,
 			);
 			path = notepad;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				2432FCB625674E92008BF6C2 /* ComposeViewController.swift in Sources */,
 				B9B24F259516E72609719AAF /* ViewController.swift in Sources */,
 				B9B24839F3321D66E864244E /* Model.swift in Sources */,
+				B9B2480319471F8DEAACA783 /* UIViewController+Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

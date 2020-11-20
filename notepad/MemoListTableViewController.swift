@@ -26,8 +26,28 @@ class MemoListTableViewController: UITableViewController {
         return f
     }()
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        //        tableView.reloadData()
+        //        print(#function)
+    }
+
+    var token: NSObjectProtocol?
+
+    // 소멸자를 사용하여 observer를 제거한다.
+    deinit {
+        if let token = token {
+            NotificationCenter.default.removeObserver(token)
+        }
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        // tableView를 reload하는 observer를 추가한다.
+        // observer는 NSObjectProtocol(token)을 return 한다.
+        token = NotificationCenter.default.addObserver(forName: ComposeViewController.newMemoDidInsert, object: nil, queue: OperationQueue.main) { [weak self] (noti) in
+            self?.tableView.reloadData()
+        }
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
