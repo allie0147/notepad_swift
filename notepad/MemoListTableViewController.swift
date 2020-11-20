@@ -9,7 +9,7 @@
 1. 테이블 뷰 배치
 2. prototype cell design, add cell identifier
 3. 데이터 소스, 델리게이트 연결
-4. 데이서 소스 구현
+4. 데이터 소스 구현
 5. 델리게이트 구현
 */
 
