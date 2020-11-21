@@ -18,16 +18,16 @@ class ComposeViewController: UIViewController {
 
     // save button
     @IBAction func save(_ sender: Any) {
-        // 예외 처리 : 내용이 없을 경우, alert창이 나타난다.
+        // guard let 예외 처리 : 내용이 없을 경우, alert창이 나타난다.
+        // 조건(BOOL): (memoTextView.text > 0) && (memo.count > 0)
         guard let memo = memoTextView.text, memo.count > 0 else {
             alert(message: "메모를 입력하세요")
             return
         }
-
         // 내용이 있는 경우, 메모를 리스트에 저장한다.
-        let newMemo = Memo(content: memo)
-        print(newMemo)
-        Memo.dummyMemoList.append(newMemo)
+//        let newMemo = Memo(content: memo)
+//        print(newMemo)
+//        Memo.dummyMemoList.append(newMemo)
         // model의 변화를 notificationCenter에 postNotification으로 observer에 등록하기 위한 단계이다.
         // notificationCenter으로 notification이 오면, center는 등록된 observer list를 모두 스캔한다.
         // 이는 앱 성능을 저하시킬 가능성이 있다.

@@ -49,6 +49,8 @@ extension DetailViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         switch indexPath.row {
         case 0:
+            // dequeueReusableCell(withIdentifier: String, for: indexPath)
+            // identifier로 재사용할 객체(셀)를 선택, 그 셀의 위치가 저장된 indexPath로 셀의 위치를 찾아 cell 변수에 저장한다.
             let cell = tableView.dequeueReusableCell(withIdentifier: "memoCell", for: indexPath)
             cell.textLabel?.text = memo?.content
             return cell

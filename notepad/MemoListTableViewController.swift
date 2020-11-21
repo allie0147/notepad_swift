@@ -30,6 +30,8 @@ class MemoListTableViewController: UITableViewController {
         super.viewWillAppear(animated)
         //        tableView.reloadData()
         //        print(#function)
+        DataManager.shared.fetchMemo() // 배열을 데이터로 채운다.
+        tableView.reloadData() // 저장된 데이터를 기반으로 테이블 뷰가 업데이트 된다.
     }
 
     var token: NSObjectProtocol?
@@ -41,11 +43,12 @@ class MemoListTableViewController: UITableViewController {
         }
     }
 
+    // ****알아보기
     // segue가 연결된 화면을 생성하고, 화면을 전환하기 직전에 호출한다.
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let cell = sender as? UITableViewCell, let indexPath = tableView.indexPath(for: cell) {
             if let vc = segue.destination as? DetailViewController {
-                vc.memo = Memo.dummyMemoList[indexPath.row]
+                vc.memo = DataManager.shared.memoList[indexPath.row]
             }
         }
     }
@@ -73,7 +76,7 @@ class MemoListTableViewController: UITableViewController {
     // == getItemCount(), 초기 테이블 뷰의 셀 갯수이다.
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return Memo.dummyMemoList.count
+        return DataManager.shared.memoList.count
     }
 
     // onBindViewHolder() 와 같은 기능이다. cell을 하나씩 출력하기 때문에 반복 수행한다.
@@ -81,11 +84,11 @@ class MemoListTableViewController: UITableViewController {
         // id "cell"인 tableView의 prototype(==recycler item)을 설정한다.
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         // indexPath.row로 데이터에 접근한다.
-        let target = Memo.dummyMemoList[indexPath.row]
+        let target = DataManager.shared.memoList[indexPath.row]
         // cell에 데이터를 추가한다.
         cell.textLabel?.text = target.content
 //        cell.detailTextLabel?.text = target.insertDate.description
-        cell.detailTextLabel?.text = formatter.string(from: target.insertDate)
+        cell.detailTextLabel?.text = formatter.string(for: target.insertDate)
         return cell
     }
 
