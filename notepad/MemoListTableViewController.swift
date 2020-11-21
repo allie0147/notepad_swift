@@ -63,6 +63,7 @@ class MemoListTableViewController: UITableViewController {
         // 어노테이션 또는 self를 사용해야 한다.
         // [weak self] param in : self를 사용하기 때문에 발생 할 수 있는 strong reference cycle을 피하기 위해서 설정한다.
         token = NotificationCenter.default.addObserver(forName: ComposeViewController.newMemoDidInsert, object: nil, queue: OperationQueue.main) { [weak self] (noti) in
+
             self?.tableView.reloadData()
         }
 

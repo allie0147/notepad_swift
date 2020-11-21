@@ -15,25 +15,19 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c0c2b37-0bdc-436e-8d5b-d14bbdaeb214" name="Default Changelist" comment="Style: detail view design change">
-      <change afterPath="$PROJECT_DIR$/notepad/Data/DataManager.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notepad/NotePad.xcdatamodeld/Model.xcdatamodel/contents" afterDir="false" />
+    <list default="true" id="2c0c2b37-0bdc-436e-8d5b-d14bbdaeb214" name="Default Changelist" comment="Feat: add datasource">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notepad.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/notepad.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notepad.xcodeproj/project.xcworkspace/xcuserdata/ishift.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/notepad.xcodeproj/project.xcworkspace/xcuserdata/ishift.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notepad/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/AppDelegate.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notepad/ComposeViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/ComposeViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notepad/DetailViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/DetailViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notepad/Data/DataManager.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/Data/DataManager.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notepad/MemoListTableViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/MemoListTableViewController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notepad/Model/Model.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/Model/Model.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notepad/SceneDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/notepad/SceneDelegate.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_00008030-0004593C21DA802E" />
   <component name="Git.Rebase.Settings">
     <option name="NEW_BASE" value="1530acb14abf46250c1b23856a97ccef30bd7132" />
   </component>
@@ -83,7 +77,7 @@
       <workItem from="1605682557644" duration="4708000" />
       <workItem from="1605746395483" duration="7691000" />
       <workItem from="1605831756772" duration="16166000" />
-      <workItem from="1605966155615" duration="855000" />
+      <workItem from="1605966155615" duration="1650000" />
     </task>
     <task id="LOCAL-00001" summary="add gitignore">
       <created>1605688108454</created>
@@ -155,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605856869754</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Feat: add datasource">
+      <created>1605967911100</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605967911100</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +192,8 @@
     <MESSAGE value="Feat: add detail view" />
     <MESSAGE value="Feat: add datasource to detail view" />
     <MESSAGE value="Style: detail view design change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Style: detail view design change" />
+    <MESSAGE value="Feat: add datasource" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: add datasource" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -218,54 +220,62 @@
       <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
     <state x="2019" y="139" key="Github.UntrackedFilesDialog/0.23.1280.713/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605685134147" />
-    <state width="1878" height="266" key="GridCell.Tab.0.bottom" timestamp="1605862197832">
-      <screen x="1280" y="-102" width="1920" height="1057" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom" timestamp="1605968926599">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.715/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605832624339" />
     <state width="1878" height="266" key="GridCell.Tab.0.bottom/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605862197832" />
     <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.723/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605841625432" />
     <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.777/1280.-102.1920.987@1280.-102.1920.987" timestamp="1605847842278" />
-    <state width="1878" height="266" key="GridCell.Tab.0.center" timestamp="1605862197831">
-      <screen x="1280" y="-102" width="1920" height="1057" />
+    <state width="1398" height="207" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1605968926599" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center" timestamp="1605968926598">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.715/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605832624336" />
     <state width="1878" height="266" key="GridCell.Tab.0.center/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605862197831" />
     <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.723/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605841625430" />
     <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.777/1280.-102.1920.987@1280.-102.1920.987" timestamp="1605847842277" />
-    <state width="1878" height="266" key="GridCell.Tab.0.left" timestamp="1605862197830">
-      <screen x="1280" y="-102" width="1920" height="1057" />
+    <state width="1398" height="207" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1605968926598" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left" timestamp="1605968926598">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.715/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605832624333" />
     <state width="1878" height="266" key="GridCell.Tab.0.left/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605862197830" />
     <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.723/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605841625429" />
     <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.777/1280.-102.1920.987@1280.-102.1920.987" timestamp="1605847842276" />
-    <state width="1878" height="266" key="GridCell.Tab.0.right" timestamp="1605862197831">
-      <screen x="1280" y="-102" width="1920" height="1057" />
+    <state width="1398" height="207" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1605968926598" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right" timestamp="1605968926599">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.715/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605832624338" />
     <state width="1878" height="266" key="GridCell.Tab.0.right/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605862197831" />
     <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.723/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605841625430" />
     <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.777/1280.-102.1920.987@1280.-102.1920.987" timestamp="1605847842278" />
-    <state width="1878" height="266" key="GridCell.Tab.1.bottom" timestamp="1605862197834">
-      <screen x="1280" y="-102" width="1920" height="1057" />
+    <state width="1398" height="207" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1605968926599" />
+    <state width="1398" height="207" key="GridCell.Tab.1.bottom" timestamp="1605968926601">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1878" height="266" key="GridCell.Tab.1.bottom/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605862197834" />
     <state width="1878" height="290" key="GridCell.Tab.1.bottom/0.23.1280.723/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605841406094" />
-    <state width="1878" height="266" key="GridCell.Tab.1.center" timestamp="1605862197833">
-      <screen x="1280" y="-102" width="1920" height="1057" />
+    <state width="1398" height="207" key="GridCell.Tab.1.bottom/0.23.1440.808@0.23.1440.808" timestamp="1605968926601" />
+    <state width="1398" height="207" key="GridCell.Tab.1.center" timestamp="1605968926600">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1878" height="266" key="GridCell.Tab.1.center/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605862197833" />
     <state width="1878" height="290" key="GridCell.Tab.1.center/0.23.1280.723/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605841406092" />
-    <state width="1878" height="266" key="GridCell.Tab.1.left" timestamp="1605862197832">
-      <screen x="1280" y="-102" width="1920" height="1057" />
+    <state width="1398" height="207" key="GridCell.Tab.1.center/0.23.1440.808@0.23.1440.808" timestamp="1605968926600" />
+    <state width="1398" height="207" key="GridCell.Tab.1.left" timestamp="1605968926600">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1878" height="266" key="GridCell.Tab.1.left/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605862197832" />
     <state width="1878" height="290" key="GridCell.Tab.1.left/0.23.1280.723/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605841406092" />
-    <state width="1878" height="266" key="GridCell.Tab.1.right" timestamp="1605862197833">
-      <screen x="1280" y="-102" width="1920" height="1057" />
+    <state width="1398" height="207" key="GridCell.Tab.1.left/0.23.1440.808@0.23.1440.808" timestamp="1605968926600" />
+    <state width="1398" height="207" key="GridCell.Tab.1.right" timestamp="1605968926600">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state width="1878" height="266" key="GridCell.Tab.1.right/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605862197833" />
     <state width="1878" height="290" key="GridCell.Tab.1.right/0.23.1280.723/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605841406093" />
+    <state width="1398" height="207" key="GridCell.Tab.1.right/0.23.1440.808@0.23.1440.808" timestamp="1605968926600" />
     <state x="1749" y="73" key="SettingsEditor" timestamp="1605760672298">
       <screen x="1280" y="-102" width="1920" height="1057" />
     </state>
@@ -273,13 +283,14 @@
     <state x="1749" y="73" key="SettingsEditor/0.23.1280.713/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605689421356" />
     <state x="1749" y="73" key="SettingsEditor/0.23.1280.715/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605760672298" />
     <state x="1749" y="54" key="SettingsEditor/0.23.1280.777/1280.-125.1920.1080@1280.-125.1920.1080" timestamp="1605681519762" />
-    <state x="1840" y="149" key="Vcs.Push.Dialog.v2" timestamp="1605856880902">
-      <screen x="1280" y="-102" width="1920" height="1057" />
+    <state x="420" y="215" key="Vcs.Push.Dialog.v2" timestamp="1605967914941">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="1840" y="149" key="Vcs.Push.Dialog.v2/0.23.1280.716/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605856880902" />
     <state x="1840" y="149" key="Vcs.Push.Dialog.v2/0.23.1280.723/1280.-102.1920.1057@1280.-102.1920.1057" timestamp="1605840624833" />
     <state x="1840" y="132" key="Vcs.Push.Dialog.v2/0.23.1280.777/1280.-102.1920.987@1280.-102.1920.987" timestamp="1605751368756" />
     <state x="1840" y="133" key="Vcs.Push.Dialog.v2/0.23.1280.777/1280.-102.1920.991@1280.-102.1920.991" timestamp="1605747161849" />
+    <state x="420" y="215" key="Vcs.Push.Dialog.v2/0.23.1440.808@0.23.1440.808" timestamp="1605967914941" />
     <state x="1380" y="-2" width="1720" height="791" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1605746743506">
       <screen x="1280" y="-102" width="1920" height="991" />
     </state>

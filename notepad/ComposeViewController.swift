@@ -26,8 +26,8 @@ class ComposeViewController: UIViewController {
         }
         // 내용이 있는 경우, 메모를 리스트에 저장한다.
 //        let newMemo = Memo(content: memo)
-//        print(newMemo)
 //        Memo.dummyMemoList.append(newMemo)
+        DataManager.shared.addNewMemo(memo)
         // model의 변화를 notificationCenter에 postNotification으로 observer에 등록하기 위한 단계이다.
         // notificationCenter으로 notification이 오면, center는 등록된 observer list를 모두 스캔한다.
         // 이는 앱 성능을 저하시킬 가능성이 있다.
