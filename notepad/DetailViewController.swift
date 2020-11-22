@@ -56,7 +56,7 @@ class DetailViewController: UIViewController {
     */
 
 }
-
+// MARK: - Extension
 extension DetailViewController: UITableViewDataSource {
     // 테이블 뷰가 표시할 셀 숫자를 return 한다.
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
