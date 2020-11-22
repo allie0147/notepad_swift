@@ -47,7 +47,6 @@ class DataManager {
         saveContext()
     }
 
-
     // add the core data persistance controller
     lazy var persistentContainer: NSPersistentContainer = {
         let container = NSPersistentContainer(name: "NotePad")

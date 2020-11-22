@@ -155,7 +155,11 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pO4-AX-iuh">
                                 <rect key="frame" x="0.0" y="813" width="414" height="49"/>
                                 <items>
-                                    <barButtonItem title="Item" id="3dA-QO-ylL"/>
+                                    <barButtonItem systemItem="compose" id="3dA-QO-ylL">
+                                        <connections>
+                                            <segue destination="ylK-d5-Wid" kind="presentation" id="cMb-Gh-5bJ"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tgb-4X-Qbl">
@@ -215,12 +219,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="GBk-Vo-5pU"/>
+                    <connections>
+                        <outlet property="memoTableView" destination="tgb-4X-Qbl" id="WxS-We-Mgf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X8F-ks-yin" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="700" y="181"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="cMb-Gh-5bJ"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

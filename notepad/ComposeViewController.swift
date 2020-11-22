@@ -8,6 +8,9 @@
 import UIKit
 
 class ComposeViewController: UIViewController {
+    // 편집 icon을 터치 했을 때 내용을 받는다.
+    var editTarget: Memo?
+
     // new memo
     @IBOutlet weak var memoTextView: UITextView!
 
@@ -27,20 +30,43 @@ class ComposeViewController: UIViewController {
         // 내용이 있는 경우, 메모를 리스트에 저장한다.
 //        let newMemo = Memo(content: memo)
 //        Memo.dummyMemoList.append(newMemo)
-        DataManager.shared.addNewMemo(memo)
+        
         // model의 변화를 notificationCenter에 postNotification으로 observer에 등록하기 위한 단계이다.
         // notificationCenter으로 notification이 오면, center는 등록된 observer list를 모두 스캔한다.
         // 이는 앱 성능을 저하시킬 가능성이 있다.
         // 따라서, 적절히 하나 이상의 notificationCenter를 만들어 사용해야 한다.
         // class var `default` : NotificationCenter { get }
-        NotificationCenter.default.post(name: ComposeViewController.newMemoDidInsert, object: nil)
         // 작성 뷰를 dismiss 시킨다.(ViewController method 이다.)
+        
+        // 편집된 메모일 경우 실행된다.
+        if let target = editTarget {
+            target.content = memo
+            DataManager.shared.saveContext()
+            // 편집된 메모는 memoDidchange notification을 observer에 등록한다.
+            NotificationCenter.default.post(name: ComposeViewController.memoDidChange, object: nil)
+        } else {
+            // 새로운 메모일 경우 실행된다.
+            DataManager.shared.addNewMemo(memo)
+            // 새로운 메모는 newMemoDidInsert notification을 observer에 등록한다.
+            NotificationCenter.default.post(name: ComposeViewController.newMemoDidInsert, object: nil)
+
+        }
         dismiss(animated: true, completion: nil)
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        // 편집 화면 일 경우 실행된다.
+        if let memo = editTarget {
+            navigationItem.title = "Edit Notes"
+            memoTextView.text = memo.content
+        } else {
+            // 새로운 메모 일 경우 실행된다.
+            navigationItem.title = "Add Notes"
+            memoTextView.text = ""
+        }
+
     }
 
 
@@ -59,4 +85,5 @@ class ComposeViewController: UIViewController {
 // create notification
 extension ComposeViewController {
     static let newMemoDidInsert = Notification.Name(rawValue: "newMemoDidInsert")
+    static let memoDidChange = Notification.Name("memoDidChange")
 }
