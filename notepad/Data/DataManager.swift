@@ -46,6 +46,13 @@ class DataManager {
 
         saveContext()
     }
+    
+    func deleteMemo(_ memo: Memo?) {
+        if let memo = memo {
+            mainContext.delete(memo)
+            saveContext()
+        }
+    }
 
     // add the core data persistance controller
     lazy var persistentContainer: NSPersistentContainer = {
