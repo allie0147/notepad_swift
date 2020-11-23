@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import CoreData
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // ios12 needs UIWindow
