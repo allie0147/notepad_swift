@@ -22,7 +22,14 @@ class DetailViewController: UIViewController {
         f.locale = Locale(identifier: "Ko_kr") // 언어를 한글로 설정한다.
         return f
     }()
-
+    
+    // share button
+    @IBAction func share(_ sender: Any) {
+        guard let memo = memo?.content else { return }
+        let vc = UIActivityViewController(activityItems: [memo], applicationActivities: nil)
+        present(vc, animated: true, completion: nil)
+    }
+    
     // delete button
     @IBAction func deleteMemo(_ sender: Any) {
         let alert = UIAlertController(title: "삭제 확인", message: "메모를 삭제할까요?", preferredStyle: .alert)

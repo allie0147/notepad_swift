@@ -10,11 +10,11 @@ import CoreData
 
 class DataManager {
 
+    // singleton
+    
     static let shared = DataManager()
 
-    private init() {
-
-    }
+    private init() {}
 
     var mainContext: NSManagedObjectContext {
         persistentContainer.viewContext
