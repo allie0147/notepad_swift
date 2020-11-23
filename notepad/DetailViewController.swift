@@ -22,14 +22,14 @@ class DetailViewController: UIViewController {
         f.locale = Locale(identifier: "Ko_kr") // 언어를 한글로 설정한다.
         return f
     }()
-    
+
     // share button
     @IBAction func share(_ sender: Any) {
         guard let memo = memo?.content else { return }
         let vc = UIActivityViewController(activityItems: [memo], applicationActivities: nil)
         present(vc, animated: true, completion: nil)
     }
-    
+
     // delete button
     @IBAction func deleteMemo(_ sender: Any) {
         let alert = UIAlertController(title: "삭제 확인", message: "메모를 삭제할까요?", preferredStyle: .alert)
@@ -60,8 +60,8 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // 편집한 내용을 reload하기 위한 observer이다.
-        token = NotificationCenter.default.addObserver(forName: ComposeViewController.memoDidChange, object: nil, queue: OperationQueue.main, using: { [weak self] (noti) in self?.memoTableView.reloadData() })
-
+        token = NotificationCenter.default.addObserver(forName: ComposeViewController.memoDidChange, object: nil, queue: OperationQueue.main, using: { [weak self] (noti) in self?.memoTableView.reloadData()
+        })
     }
 
 
@@ -95,6 +95,14 @@ extension DetailViewController: UITableViewDataSource {
         case 1:
             let cell = tableView.dequeueReusableCell(withIdentifier: "dateCell", for: indexPath)
             cell.textLabel?.text = formatter.string(for: memo?.insertDate)
+            // 모드에 따른 label text 색을 변경한다.
+            if #available(iOS 11.0, *) {
+                // assets에 만든 MyLableColor를 사용한다.
+                cell.textLabel?.textColor = UIColor(named: "MyLabelColor")
+            } else {
+                // ios 11 이하의 경우, 다크모드를 지원하지 않기 때문에 lightGray로 고정한다.
+                cell.textLabel?.textColor = UIColor.lightGray
+            }
             return cell
         default:
             fatalError()

@@ -123,7 +123,7 @@ class ComposeViewController: UIViewController {
         super.viewWillAppear(animated)
         // 작성화면 전환시, 키보드 포커스 기능을 적용한다.
         memoTextView.becomeFirstResponder()
-
+ 
         navigationController?.presentationController?.delegate = self
     }
     override func viewWillDisappear(_ animated: Bool) {
